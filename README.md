@@ -1,27 +1,20 @@
-# Wixlo
+# Wixlo (Android)
 
-Minimal AI calling and messaging app with wallet billing.
+Minimal AI messaging and calling app with wallet billing.
 
 ## Features
 
-- **Contacts** — browse and search AI contacts
-- **Messaging** — text chat billed per message
-- **Calling** — voice calls via Gemini Live, billed per minute
-- **Wallet** — balance, top-ups, and transaction history
+- **Chats** — message AI contacts (billed per message)
+- **Calls** — voice calls via speech recognition + Gemini + TTS (billed per minute)
+- **Wallet** — balance, top-ups, transaction history
 
-## Run locally
+## Setup
 
-**Prerequisites:** Node.js
+1. Copy `.env.example` to `.env` and set `GEMINI_API_KEY`
+2. Open the project in Android Studio
+3. Build and run on a device or emulator
 
-1. Install dependencies: `npm install`
-2. Copy `.env.example` to `.env.local` and set `GEMINI_API_KEY`
-3. Start the app: `npm run dev`
+## Permissions
 
-Open http://localhost:3000
-
-## Scripts
-
-- `npm run dev` — development server
-- `npm run build` — production build
-- `npm run preview` — preview production build
-- `npm run lint` — TypeScript check
+- `INTERNET` — Gemini API
+- `RECORD_AUDIO` — voice calls

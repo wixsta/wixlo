@@ -1,6 +1,0 @@
-{
-  "name": "Wixlo",
-  "description": "A Call-First AI platform designed for immediate, high-fidelity human-AI connection with zero friction.",
-  "requestFramePermissions": ["camera", "microphone"],
-  "majorCapabilities": ["Real-time audio conversation", "AI Video Avatars"]
-}
