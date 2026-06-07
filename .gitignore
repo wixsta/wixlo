@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Legacy duplicate export (Android app — not part of this web project)
+remix_-wixlo (2)/
